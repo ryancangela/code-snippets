@@ -1,23 +1,16 @@
 Useful CSS Snippets
 
+
 /* Animated Color Background */
 .divClass{
 	background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
-}
+	animation: gradient 5s ease infinite;}
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}}
 
 
 /* Animated Shine Effect */
@@ -33,3 +26,6 @@ Useful CSS Snippets
 /* Active state */
 .divClass:active:after {
   opacity: 0;}
+
+
+/*  */

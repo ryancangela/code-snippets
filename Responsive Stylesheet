@@ -1,0 +1,83 @@
+/* Default WordPress RWD Stylesheet */
+
+
+/***Set Standard Sizes***/
+body {}
+h1 {}
+h2 {}
+h3 {}
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1079px) and (max-width: 1405px) {
+}
+
+/*** Responsive Styles Awkward Main Menu Size ***/
+@media all and (min-width: 801px) and (max-width: 1250px) {
+}
+
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+ 
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+}
+ 
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 480px) {
+}
+
+
+
+
+RWD in Useful
+
+/***Set Standard Sizes***/
+body {font-size: 16px; font-family: Noto Sans, Helvetica, Arial, sans-serif;}
+h1 {font-size: 48px; font-weight: 600;}
+h2 {font-size 32px;}
+h3 {font-size 32px; color: #2296f3;}
+p {font-size: 16px; font-weight: 400; line-height:32px; font-family: Helvetica, Arial, sans-serif;}
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+	body {font-size: 16px;}
+	h1 {font-size: 48px;}
+	p {font-size: 16px;}
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1079px) and (max-width: 1405px) {
+	body {font-size: 16px;}
+	h1 {font-size: 42px;}
+	p {font-size: 16px;}
+}
+
+/*** Responsive Styles Awkward Main Menu Size ***/
+@media all and (min-width: 801px) and (max-width: 1250px) {
+	.fusion-logo img{width: 85%; height: auto;}
+	nav.fusion-main-menu{font-size:15px;}
+}
+
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+	h1 {font-size: 48px;}
+	p {font-size: 16px;}
+}
+ 
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+	h1 {font-size: 48px;}
+	p {font-size: 18px; line-height 12px;}
+}
+ 
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 480px) {
+	h1 {font-size: 54px;}
+	h2 {font-size 38px;}
+	h3 {font-size 22px; color: #2296f3;}
+	p {font-size: 18px; line-height 12px;}
+}
