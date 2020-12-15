@@ -1,0 +1,35 @@
+Useful CSS Snippets
+
+/* Animated Color Background */
+.divClass{
+	background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/* Animated Shine Effect */
+.divClass:after {content:"";position:absolute;top:-50%;left:-60%;width:20%;height:200%;opacity:0;transform:rotate(30deg);background: rgba(255, 255, 255, 0.13);background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%);}
+/* Hover state-trigger effect */
+.divClass:hover:after {
+  opacity: 1;left: 130%;transition-property: left, top, opacity;transition-duration: 0.7s, 0.7s, 0.15s;transition-timing-function: ease;}
+/* Active state */
+.divClass:active:after {
+  opacity: 0;}
