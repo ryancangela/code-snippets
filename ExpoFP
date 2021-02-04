@@ -1,0 +1,8 @@
+<div style="width: 100%; height: 100vh; position: relative;">
+<iframe style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100vh; border-radius: 15px;" src="https://miami.expofp.com">
+<div class="expofp-floorplan" data-data-url="https://miami.expofp.com/data/" data-event="miami"></div>
+<script src="https://efp-data.s3.amazonaws.com/packages/master/expofp.js" crossorigin="anonymous"></script>
+&nbsp;
+&nbsp;
+</iframe>
+</div>
