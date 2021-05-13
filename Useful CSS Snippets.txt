@@ -1,6 +1,5 @@
 Useful CSS Snippets
 
-
 /* Animated Color Background */
 .divClass{
 	background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -11,7 +10,6 @@ Useful CSS Snippets
 	0% {background-position: 0% 50%;}
 	50% {background-position: 100% 50%;}
 	100% {background-position: 0% 50%;}}
-
 
 /* Animated Shine Effect */
 .divClass:after {content:"";position:absolute;top:-50%;left:-60%;width:20%;height:200%;opacity:0;transform:rotate(30deg);background: rgba(255, 255, 255, 0.13);background: linear-gradient(
@@ -28,4 +26,17 @@ Useful CSS Snippets
   opacity: 0;}
 
 
-/*  */
+/* Styling Gravity Form's Radio Input */
+input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #00bbb4;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
